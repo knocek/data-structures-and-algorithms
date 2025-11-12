@@ -58,8 +58,7 @@ bool MyStack::isFull() {
     return (topVal >= MAX - 1);
 }
 
-int main()
-{
+int main() {
     MyStack s;
     cout << "Empty? " << (s.isEmpty() ? "yes" : "no") << "\n";
     s.push(10);
